@@ -2,11 +2,10 @@ package TruckDocking;
 
 import java.util.Scanner;
 
-public class HeavyTruck {
-    private final int weight;
-    private HeavyTruck(int weight){
-        this.weight = weight;
-    }
+public class HeavyTruck extends Vehicle {
+   public HeavyTruck (int weight) {
+       super(weight);
+   }
     @Override
     public String toString() {
         return "Tung lastbil [" + weight + "kg]";

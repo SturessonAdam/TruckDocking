@@ -22,7 +22,7 @@ public class Main {
                 String menuchoice2 = scanner.nextLine();
                 switch (menuchoice2) {
                     case "1":
-                        van.vanOption(scanner, avlastningsstation);
+                        Van.vanOption(scanner, avlastningsstation);
                         break;
                     case "2":
                         SmallTruck.SmallTruckOption(scanner, avlastningsstation);

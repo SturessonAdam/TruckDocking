@@ -2,10 +2,9 @@ package TruckDocking;
 
 import java.util.Scanner;
 
-public class SmallTruck {
-    private final int weight;
-    private SmallTruck(int weight){
-        this.weight = weight;
+public class SmallTruck extends Vehicle {
+    public SmallTruck(int weight){
+        super(weight);
     }
     @Override
     public String toString() {
